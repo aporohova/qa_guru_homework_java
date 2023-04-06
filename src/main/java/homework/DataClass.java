@@ -1,4 +1,4 @@
-package dataTest;
+package homework;
 
 import java.util.Scanner;
 

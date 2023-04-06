@@ -1,4 +1,4 @@
-package dataTest;
+package homework;
 
 import java.util.Scanner;
 
@@ -7,12 +7,12 @@ public class LogicalOperators {
         System.out.println("Logical operators");
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter your education level");
-        String Education = sc.nextLine();
+        String education = sc.nextLine();
         System.out.println("Enter your experience");
         int experience = sc.nextInt();
-        if ((experience >= 3 && Education.equals("High"))) {
+        if ((experience >= 3 && education.equals("High"))) {
             System.out.println("Your salary is 2500$");
-        } else if (experience < 3 || Education.equals("Middle")) {
+        } else if (experience < 3 || education.equals("Middle")) {
             System.out.println("Your salary is 1500$");
         } else {
             System.out.println("No job for you");
